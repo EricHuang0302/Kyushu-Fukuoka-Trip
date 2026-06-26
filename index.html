@@ -286,6 +286,23 @@
     background: rgba(255,253,248,0.76);
   }
 
+  .timeline-item.traffic-item {
+    border-color: rgba(36,55,70,0.22);
+    border-left: 4px solid var(--indigo);
+    background: linear-gradient(135deg, rgba(36,55,70,0.08), rgba(125,143,104,0.08));
+  }
+
+  .traffic-item .time,
+  .traffic-item .item-title {
+    color: var(--indigo);
+  }
+
+  .traffic-item .link-pill {
+    border-color: rgba(36,55,70,0.28);
+    background: rgba(36,55,70,0.08);
+    color: var(--indigo);
+  }
+
   .time {
     color: var(--matcha-dark);
     font-size: 13px;
@@ -738,7 +755,7 @@ function timelineHtml(item) {
   ].filter(Boolean).join("");
   const metaHtml = meta ? `<div class="item-meta">${meta}</div>` : "";
   return `
-    <article class="timeline-item">
+    <article class="timeline-item ${item.kind === "traffic" ? "traffic-item" : ""}">
       <div class="time">${escapeHtml(item.time)}</div>
       <div class="item-main">
         ${metaHtml}
