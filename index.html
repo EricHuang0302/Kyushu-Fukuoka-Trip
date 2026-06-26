@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>九州行程全住福岡版｜福岡・熊本・佐賀</title>
+<title>Eric 的福岡・熊本之旅</title>
 <style>
   :root {
     --paper: #f7f2e8;
@@ -49,7 +49,7 @@
   .hero-inner {
     width: min(1100px, calc(100% - 40px));
     margin: 0 auto;
-    padding: 56px 0 26px;
+    padding: 56px 0 46px;
   }
 
   .eyebrow {
@@ -78,46 +78,6 @@
     font-size: clamp(34px, 7vw, 72px);
     line-height: 1.08;
     font-weight: 600;
-    overflow-wrap: anywhere;
-  }
-
-  .hero-copy {
-    max-width: 720px;
-    margin: 0 0 28px;
-    color: rgba(255,253,248,0.78);
-    font-size: 15px;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-  .hero-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 28px;
-  }
-
-  .hero-stat {
-    min-height: 92px;
-    padding: 16px;
-    border: 1px solid rgba(255,253,248,0.14);
-    background: rgba(255,253,248,0.07);
-    border-radius: 8px;
-  }
-
-  .stat-label {
-    display: block;
-    margin-bottom: 8px;
-    color: #d8c69f;
-    font-size: 11px;
-    font-weight: 700;
-  }
-
-  .stat-value {
-    display: block;
-    color: var(--white);
-    font-size: 14px;
-    line-height: 1.45;
     overflow-wrap: anywhere;
   }
 
@@ -187,13 +147,6 @@
     padding: 34px 0 72px;
   }
 
-  .overview {
-    display: grid;
-    grid-template-columns: 1.25fr .75fr;
-    gap: 18px;
-    margin-bottom: 28px;
-  }
-
   .panel {
     border: 1px solid var(--line);
     border-radius: 8px;
@@ -212,38 +165,6 @@
     font-weight: 600;
   }
 
-  .overview h2 { font-size: 24px; }
-
-  .overview p {
-    margin: 10px 0 0;
-    color: var(--muted);
-    font-size: 14px;
-  }
-
-  .overview-list {
-    display: grid;
-    gap: 10px;
-    margin-top: 16px;
-  }
-
-  .overview-row {
-    display: grid;
-    grid-template-columns: 78px 1fr;
-    gap: 10px;
-    align-items: baseline;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(221,210,191,0.74);
-    font-size: 13px;
-  }
-
-  .overview-row:last-child {
-    padding-bottom: 0;
-    border-bottom: 0;
-  }
-
-  .overview-row strong { color: var(--matcha-dark); }
-  .overview-row span { color: var(--muted); }
-  .overview-row span,
   .day-summary,
   .item-title,
   .item-note,
@@ -283,6 +204,12 @@
     border-color: rgba(71,90,69,0.35);
     background: rgba(125,143,104,0.14);
     color: var(--matcha-dark);
+  }
+
+  .tag.traffic {
+    border-color: rgba(36,55,70,0.28);
+    background: rgba(36,55,70,0.08);
+    color: var(--indigo);
   }
 
   .day-panel {
@@ -375,6 +302,13 @@
     font-size: 16px;
     font-weight: 800;
     line-height: 1.45;
+  }
+
+  .item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 7px;
   }
 
   .item-note {
@@ -530,8 +464,6 @@
 
     .hero-inner { padding-top: 42px; }
 
-    .hero-grid,
-    .overview,
     .note-grid,
     .checklist {
       grid-template-columns: 1fr;
@@ -552,10 +484,6 @@
     h1 {
       font-size: 30px;
       line-height: 1.16;
-    }
-
-    .hero-copy {
-      word-break: break-all;
     }
 
     .day-nav {
@@ -580,7 +508,6 @@
     }
 
     .panel-inner { padding: 18px; }
-    .overview-row { grid-template-columns: 1fr; gap: 2px; }
   }
 </style>
 </head>
@@ -588,26 +515,7 @@
   <header class="hero">
     <div class="hero-inner">
       <div class="eyebrow">Kyushu Summer Route</div>
-      <h1>九州行程全住福岡版<br><span>福岡・熊本・佐賀</span></h1>
-      <p class="hero-copy">2026 年 7 月 7 日至 7 月 12 日，臺北往返佐賀，全程住福岡／博多或中洲附近。行程以快速查看為主，保留每日時間軸、重點提醒與可點擊地圖連結。</p>
-      <div class="hero-grid" aria-label="旅程摘要">
-        <div class="hero-stat">
-          <span class="stat-label">旅行期間</span>
-          <span class="stat-value">2026/7/7（二）至 2026/7/12（日）</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-label">航班</span>
-          <span class="stat-value">臺灣虎航｜臺北 TPE ⇄ 佐賀 HSG</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-label">住宿策略</span>
-          <span class="stat-value">每晚住福岡，建議博多或中洲附近</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-label">飲食偏好</span>
-          <span class="stat-value">不吃海鮮、不吃牛腸；水炊き、燒肉、燒咖哩</span>
-        </div>
-      </div>
+      <h1>Eric 的<br><span>福岡・熊本之旅</span></h1>
     </div>
   </header>
 
@@ -616,76 +524,9 @@
   </div>
 
   <main>
-    <section class="overview" aria-label="行程總覽">
-      <div class="panel">
-        <div class="panel-inner">
-          <h2>行程總覽</h2>
-          <p>重點是不用換飯店、不搬行李，每天晚上回福岡。熊本市區與高千穗／阿蘇會是當日來回，交通時間較長。</p>
-          <div class="overview-list">
-            <div class="overview-row"><strong>7/7</strong><span>佐賀 → 福岡 → 太宰府 → 博多｜抵達、太宰府、山笠、華味鳥</span></div>
-            <div class="overview-row"><strong>7/8</strong><span>福岡 → 門司港 → 福岡｜燒咖哩、港口散步、肉いち燒肉</span></div>
-            <div class="overview-row"><strong>7/9</strong><span>福岡 ⇄ 熊本｜水前寺、熊本城、城彩苑、黑亭、熊本熊廣場</span></div>
-            <div class="overview-row"><strong>7/10</strong><span>福岡出發一日遊｜高千穗峽、阿蘇、草千里</span></div>
-            <div class="overview-row"><strong>7/11</strong><span>福岡市區／宮地嶽神社｜風鈴祭白天版、緩衝日</span></div>
-            <div class="overview-row"><strong>7/12</strong><span>福岡 → 佐賀機場 → 臺北｜JR 接機場巴士回台灣</span></div>
-          </div>
-        </div>
-      </div>
-      <aside class="panel">
-        <div class="panel-inner">
-          <h3>全程重點</h3>
-          <div class="quick-tags">
-            <span class="tag important">需預約：華味鳥</span>
-            <span class="tag important">需預約：肉いち</span>
-            <span class="tag confirm">確認熊本熊表演</span>
-            <span class="tag confirm">確認 KKday 集合</span>
-            <span class="tag confirm">確認 7/12 JR / 巴士</span>
-            <span class="tag">不排一汁三鉢</span>
-          </div>
-          <p>最後一天主方案是 07:28 博多 → 08:14 佐賀，再接 09:10 佐賀站巴士中心 → 09:40 佐賀機場。</p>
-        </div>
-      </aside>
-    </section>
-
     <section id="dayPanels" aria-live="polite"></section>
 
-    <section class="section" aria-label="需要預約與確認清單">
-      <h2 class="section-title">需要預約／出發前確認</h2>
-      <div class="checklist">
-        <div class="check-item">
-          <span class="tag important">需預約</span>
-          <h4>博多華味鳥 中洲本店</h4>
-          <p>7/7 晚餐吃水炊き。預約前確認人數、一人用餐、服務費與遲到取消規則。</p>
-        </div>
-        <div class="check-item">
-          <span class="tag important">需預約</span>
-          <h4>肉屋 肉いち 博多店／NIKUICHI</h4>
-          <p>7/8 晚餐吃燒肉。建議從官網或 TableCheck 預約，注意遲到取消規則。</p>
-        </div>
-        <div class="check-item">
-          <span class="tag confirm">出發前確認</span>
-          <h4>熊本熊廣場 7/9 表演時間</h4>
-          <p>目前行程以 14:00–14:30 場次安排，出發前確認官方在室スケジュール。</p>
-        </div>
-        <div class="check-item">
-          <span class="tag confirm">出發前確認</span>
-          <h4>7/10 KKday／一日遊</h4>
-          <p>集合地點、集合時間、行程順序以實際訂單為準；阿蘇火山口依當天管制。</p>
-        </div>
-        <div class="check-item">
-          <span class="tag confirm">出發前確認</span>
-          <h4>7/12 JR 與佐賀機場巴士</h4>
-          <p>確認 07:28、07:55 博多到佐賀早班特急，以及 09:10 佐賀站巴士中心往佐賀機場班次。</p>
-        </div>
-        <div class="check-item">
-          <span class="tag">暫不排</span>
-          <h4>一汁三鉢</h4>
-          <p>因全程住福岡且熊本日為 7/9（四）當日來回，目前不排；若恢復需重排行程。</p>
-        </div>
-      </div>
-    </section>
-
-    <p class="footer-note">資料來源：福岡/kyushu_itinerary_current.md。營業時間、交通班次與活動場次仍需出發前再次確認。</p>
+    <p class="footer-note">資料來源：kyushu_itinerary_current.md。營業時間、交通班次與活動場次仍需出發前再次確認。</p>
   </main>
 
 <script>
@@ -732,51 +573,49 @@ const days = [
   {
     id: "d707",
     navDate: "7/7",
-    navTitle: "抵達・太宰府",
+    navTitle: "抵達・佐賀午餐",
     date: "2026年7月7日（二）",
-    title: "佐賀機場 → 福岡 → 太宰府 → 博多",
+    title: "佐賀機場 → 佐賀站午餐 → 福岡",
     stay: "福岡",
-    summary: "抵達日航班早，下午安排太宰府天滿宮，晚上回博多／中洲看博多祇園山笠飾山笠，晚餐吃博多華味鳥水炊き。",
-    tags: ["抵達日", "需預約晚餐", "山笠氣氛"],
+    summary: "第一天先從佐賀機場搭巴士到 JR 佐賀站，在佐賀站附近吃午餐，再搭 JR 特急到福岡。下午不要排太遠，晚上看博多祇園山笠飾山笠，晚餐吃博多華味鳥水炊き。",
+    tags: ["抵達日", "佐賀站午餐", "山笠氣氛"],
     timeline: [
       { time: "06:55", title: "臺北 TPE 出發", note: "臺灣虎航。" },
       { time: "10:35", title: "抵達佐賀機場／九州佐賀国際空港", note: "入境、拿行李。", links: [["佐賀機場", links.sagaAirport]] },
-      { time: "11:20–12:00", title: "佐賀機場 → 佐賀站／佐賀駅", note: "搭佐賀機場接駁巴士。", links: [["佐賀站", links.sagaStation]] },
-      { time: "12:00–13:00", title: "佐賀站 → 博多站／博多駅", note: "JR 特急較順。", links: [["博多站", links.hakata]] },
-      { time: "13:00–13:30", title: "福岡飯店寄放行李", note: "建議住宿選博多／中洲附近。" },
-      { time: "13:30–14:30", title: "博多 → 太宰府", note: "西鐵或地鐵＋西鐵轉乘。" },
-      { time: "14:30–17:00", title: "太宰府天滿宮、參道、梅枝餅", note: "第一天下午可行，參道可吃甜點。", links: [["太宰府天滿宮", links.dazaifu]] },
-      { time: "17:00–18:00", title: "太宰府 → 博多／中洲", note: "回福岡市區。" },
+      { time: "11:20–12:00", title: "佐賀機場 → 佐賀站／佐賀駅", note: "佐賀機場接續巴士。", kind: "traffic", links: [["佐賀機場", links.sagaAirport], ["佐賀站", links.sagaStation]] },
+      { time: "12:00–13:00", title: "佐賀站附近午餐", note: "先在佐賀站周邊吃簡單定食／拉麵／咖啡，不急著衝福岡。", links: [["佐賀站", links.sagaStation]] },
+      { time: "13:00–14:00", title: "佐賀站 → 博多站／博多駅", note: "JR 特急較順。", kind: "traffic", links: [["佐賀站", links.sagaStation], ["博多站", links.hakata]] },
+      { time: "14:00–15:00", title: "抵達福岡，飯店寄放行李／Check-in", note: "建議住博多／中洲附近。" },
+      { time: "15:30–17:30", title: "福岡市區休息、博多站周邊、或飯店整理", note: "抵達日不要排太硬。" },
       { time: "18:00–19:00", title: "櫛田神社、川端通商店街、博多祇園山笠周邊", note: "2026 年活動期間 7/1–7/15，這趟主要看飾山笠與街區祭典氣氛。", links: [["櫛田神社", links.kushida], ["川端通商店街", links.kawabata], ["博多祇園山笠", links.yamakasa]] },
-      { time: "晚上", title: "【需預約】博多華味鳥 中洲本店：水炊き", note: "指定餐廳；中洲本店和櫛田神社、川端商店街、中洲動線最順。", links: [["中洲本店", links.hanamidori], ["博多駅前店備案", links.hanamidoriHakata]] },
+      { time: "晚上", title: "博多華味鳥 中洲本店：水炊き", note: "需預約。官網可 WEB 預約；中洲本店若遲到 15 分鐘未聯絡可能取消，也有服務費規定。", labels: ["需預約"], links: [["中洲本店", links.hanamidori], ["博多駅前店備案", links.hanamidoriHakata]] },
       { time: "晚餐後", title: "中洲散步", note: "看屋台氣氛即可，不一定要吃。", links: [["中洲", links.nakasu]] }
     ],
     notes: [
-      { title: "華味鳥預約", text: "官網可 WEB 預約。預約前確認人數、一人用餐、服務費與遲到取消規則。" },
+      { title: "佐賀站午餐", text: "這天先在佐賀站附近吃午餐，再搭 JR 到博多，整體比較不趕。" },
       { title: "山笠提醒", text: "最熱血的追山預演是 7/12 下午，正式追山是 7/15 清晨，這趟看不到。" }
     ]
   },
   {
     id: "d708",
     navDate: "7/8",
-    navTitle: "門司港・燒咖哩",
+    navTitle: "太宰府・福岡市區",
     date: "2026年7月8日（三）",
-    title: "福岡 → 門司港 → 福岡",
+    title: "福岡 → 太宰府 → 福岡",
     stay: "福岡",
-    summary: "門司港燒咖哩、復古港口散步，晚上回博多吃肉いち燒肉。這天比把太宰府也塞進來的版本輕鬆。",
-    tags: ["半日遠行", "燒咖哩", "需預約晚餐"],
+    summary: "第二天把太宰府天滿宮放進來，下午回福岡市區散步，晚上吃肉いち燒肉。",
+    tags: ["太宰府", "福岡市區散步", "燒肉"],
     timeline: [
-      { time: "上午", title: "福岡市區慢慢出發", note: "不用太早，前一天已經跑太宰府。" },
-      { time: "10:30–12:00", title: "博多站／博多駅 → 門司港", note: "可搭 JR 至小倉／門司港方向。", links: [["博多站", links.hakata]] },
-      { time: "12:00–13:00", title: "門司港レトロ散步", note: "復古港口建築、拍照。", links: [["門司港レトロ", links.mojikoRetro]] },
-      { time: "13:00–14:00", title: "【不可預約】伽哩本舗 門司港レトロ店：燒咖哩", note: "門司港名物，當午餐最剛好；目前先註記為現場排隊。", links: [["伽哩本舗", links.curryHonpo]] },
-      { time: "14:00–16:00", title: "門司港レトロ周邊散步", note: "不排海鮮、不排太遠。", links: [["門司港レトロ", links.mojikoRetro]] },
-      { time: "16:00–17:30", title: "門司港 → 博多站／博多駅", note: "回福岡市區。", links: [["博多站", links.hakata]] },
-      { time: "晚上", title: "【需預約】肉屋 肉いち 博多店／NIKUICHI：燒肉", note: "建議不要訂太早，避免回程交通壓力太大。", links: [["肉いち 博多店", links.nikuichi]] }
+      { time: "09:00", title: "福岡市區出發", note: "可從博多或天神出發。", kind: "traffic" },
+      { time: "10:00–12:00", title: "太宰府天滿宮", note: "參拜、拍照、參道散步。", links: [["太宰府天滿宮", links.dazaifu]] },
+      { time: "12:00–13:00", title: "太宰府參道", note: "梅枝餅、甜點、簡單午餐。", links: [["太宰府參道", links.dazaifu]] },
+      { time: "13:00–14:00", title: "太宰府 → 福岡市區", note: "可回博多或天神。", kind: "traffic" },
+      { time: "14:30–16:30", title: "大濠公園、福岡城跡／舞鶴公園", note: "市區散步，不逛街也舒服。", links: [["大濠公園", links.ohori], ["福岡城跡／舞鶴公園", links.fukuokaCastle]] },
+      { time: "傍晚", title: "博多／天神休息", note: "晚餐前留緩衝。" },
+      { time: "晚上", title: "肉屋 肉いち 博多店／NIKUICHI：燒肉", note: "需預約。建議先從官網／TableCheck 預約；超過 10 分鐘未聯絡可能取消。", labels: ["需預約"], links: [["肉いち 博多店", links.nikuichi]] }
     ],
     notes: [
-      { title: "伽哩本舗", text: "營業時間出發前再確認；MD 目前註記約 11:00–20:00 或平台列 11:00–19:30。" },
-      { title: "肉いち", text: "建議先從官網／TableCheck 預約。TableCheck 提醒預約時間超過 10 分鐘未聯絡可能取消。" }
+      { title: "太宰府交通", text: "博多到太宰府可搭市營地下鐵＋西鐵電車，或博多巴士總站直行巴士「旅人」。" }
     ]
   },
   {
@@ -786,30 +625,23 @@ const days = [
     date: "2026年7月9日（四）",
     title: "福岡 ⇄ 熊本市區當日來回",
     stay: "福岡",
-    summary: "水前寺成趣園／出水神社、熊本城、加藤神社、城彩苑、黑亭拉麵、熊本熊廣場、上下通商店街。點很多，建議搭新幹線並控制停留時間。",
-    tags: ["新幹線建議", "14:00 熊本熊", "行程密度高"],
+    summary: "這天從福岡搭 JR／新幹線到熊本當日來回。熊本想去的點包含水前寺廟、熊本城、加藤神社、櫻之馬場城彩苑、黑亭拉麵、熊本熊大樓、上下通商店街。",
+    tags: ["交通偏滿", "14:00 熊本熊", "黑亭拉麵"],
     timeline: [
-      { time: "07:40–08:10", title: "福岡飯店出發 → 博多站／博多駅", note: "建議搭新幹線，當日來回比較舒服。", links: [["博多站", links.hakata]] },
-      { time: "08:10–09:00", title: "博多 → 熊本站／熊本駅", note: "實際班次出發前確認。", links: [["熊本站", links.kumamotoStation]] },
-      { time: "09:00–09:30", title: "熊本站 → 水前寺成趣園", note: "市電或計程車。" },
-      { time: "09:30–10:20", title: "水前寺成趣園／出水神社", note: "先用水前寺成趣園＋園內出水神社處理你說的水前寺廟。", links: [["水前寺成趣園", links.suizenji], ["出水神社", links.izumiShrine]] },
-      { time: "10:20–10:50", title: "水前寺 → 熊本城", note: "市電或計程車；若想省時間可直接計程車。" },
-      { time: "10:50–11:45", title: "熊本城", note: "上午去最安全，避免下午卡最後入場。", links: [["熊本城", links.kumamotoCastle]] },
-      { time: "11:45–12:10", title: "加藤神社", note: "在熊本城旁邊，順路排。", links: [["加藤神社", links.katoShrine]] },
-      { time: "12:10–12:35", title: "櫻之馬場 城彩苑", note: "買城彩苑熊本熊雞蛋糕／くまモン人形焼き。", links: [["城彩苑", links.josaien], ["熊本熊雞蛋糕", links.kumamonCake]] },
-      { time: "12:45–13:25", title: "黑亭拉麵 下通店：中午吃熊本拉麵", note: "路線最順；本店在熊本站附近，若改本店需重排。", links: [["黑亭下通店", links.kokuteiShimotori], ["黑亭本店", links.kokuteiMain]] },
-      { time: "13:25–13:40", title: "黑亭下通店 → 熊本熊廣場", note: "步行或短程移動。" },
-      { time: "13:40", title: "抵達熊本熊廣場／くまモンスクエア", note: "建議提早到，避免 14:00 表演太趕。", links: [["熊本熊廣場", links.kumamonSquare]] },
-      { time: "14:00–14:30", title: "熊本熊表演", note: "出發前確認官方在室スケジュール。" },
-      { time: "14:30–15:00", title: "熊本熊廣場拍照、買限定商品", note: "同棟：Tetria 熊本大樓。" },
-      { time: "15:00–15:25", title: "Tetria 熊本大樓", note: "暫註記為玻璃上有熊本熊圖案的大樓。", links: [["Tetria 熊本大樓", links.tetria]] },
-      { time: "15:25–16:45", title: "上通商店街 → Round Trip → 下通商店街", note: "Round Trip 放上通，和上下通商店街順路。", links: [["上通商店街", links.kamitori], ["Round Trip", links.roundTrip], ["下通商店街", links.shimotori]] },
-      { time: "17:00 以後", title: "熊本 → 博多", note: "晚上回福岡。" },
-      { time: "晚上", title: "福岡市區晚餐／自由活動", note: "視體力安排。" }
+      { time: "07:30–08:30", title: "博多站／博多駅 → 熊本站／熊本駅", note: "建議早點出發，熊本城上午去最穩。", kind: "traffic", links: [["博多站", links.hakata], ["熊本站", links.kumamotoStation]] },
+      { time: "09:00–10:00", title: "水前寺成趣園／出水神社", note: "你說的水前寺廟，先以水前寺成趣園＋出水神社安排。", links: [["水前寺成趣園／出水神社", links.suizenji]] },
+      { time: "10:30–11:30", title: "熊本城", note: "放上午，避免下午卡最後入場時間。", links: [["熊本城", links.kumamotoCastle]] },
+      { time: "11:30–12:00", title: "加藤神社", note: "熊本城旁邊，順路。", links: [["加藤神社", links.katoShrine]] },
+      { time: "12:00–12:45", title: "櫻之馬場 城彩苑", note: "買城彩苑熊本熊雞蛋糕／くまモン人形焼き。", links: [["城彩苑", links.josaien], ["熊本熊雞蛋糕", links.kumamonCake]] },
+      { time: "13:00–14:00", title: "黑亭拉麵 下通店", note: "中午吃黑亭拉麵。先排下通店，動線最順；若要穩看 14:00 熊本熊，午餐要吃快一點。", links: [["黑亭下通店", links.kokuteiShimotori]] },
+      { time: "14:00–14:30", title: "熊本熊廣場／くまモンスクエア", note: "若仍想看 14:00 表演，出發前確認官方在室スケジュール。", labels: ["出發前確認"], links: [["熊本熊廣場", links.kumamonSquare]] },
+      { time: "14:30–15:00", title: "Tetria 熊本大樓", note: "你說玻璃上有熊本熊圖案的大樓，暫註記為熊本熊廣場所在建築。", links: [["Tetria 熊本大樓", links.tetria]] },
+      { time: "15:00–16:30", title: "上通商店街、Round Trip、下通商店街", note: "上下通一起散步；Round Trip 是指定想逛的店。", links: [["上通商店街", links.kamitori], ["Round Trip", links.roundTrip], ["下通商店街", links.shimotori]] },
+      { time: "17:00 以後", title: "熊本站／熊本駅 → 博多站／博多駅", note: "晚上回福岡住宿。", kind: "traffic", links: [["熊本站", links.kumamotoStation], ["博多站", links.hakata]] }
     ],
     notes: [
-      { title: "延誤時優先順序", text: "若早上交通延誤，優先保留：熊本城 → 加藤神社 → 黑亭拉麵 → 熊本熊廣場 → 上下通；水前寺可縮短或刪除。" },
-      { title: "開放時間提醒", text: "水前寺與熊本城都有最後入場限制；本行程排上午是為了降低風險。" }
+      { title: "時間取捨", text: "如果早上出發晚，建議保留：熊本城、加藤神社、城彩苑、黑亭、熊本熊廣場；水前寺可視時間調整。" },
+      { title: "黑亭選店", text: "目前先排下通店，因為離熊本熊廣場、上下通商店街最順；如果改吃黑亭本店，動線要重排。" }
     ]
   },
   {
@@ -819,18 +651,18 @@ const days = [
     date: "2026年7月10日（五）",
     title: "福岡出發 KKday／一日遊：高千穗峽＋阿蘇／草千里",
     stay: "福岡",
-    summary: "直接從福岡參加一日遊，晚上回福岡住宿。核心抓高千穗峽＋草千里／阿蘇周邊，火山口不視為一定會到。",
+    summary: "高千穗峽＋阿蘇／草千里一日遊。建議直接買 KKday 或當地一日遊，不建議自己轉車。",
     tags: ["一日遊", "交通最長", "依訂單為準"],
     timeline: [
-      { time: "早上", title: "福岡／博多集合出發", note: "依 KKday 實際集合地點與時間。" },
+      { time: "早上", title: "福岡集合出發", note: "依 KKday／一日遊集合時間與集合地點。", kind: "traffic", labels: ["出發前確認"] },
       { time: "白天", title: "高千穗峽、真名井瀑布", note: "若能划船則加分，但不可保證。", links: [["高千穗峽", links.takachiho], ["真名井瀑布", links.manaiFalls]] },
       { time: "白天", title: "阿蘇、草千里ヶ浜一帶", note: "阿蘇中岳火口依當天火山氣體、天候與現場管制決定。", links: [["草千里ヶ浜", links.kusasenri], ["阿蘇中岳火口", links.asoCrater]] },
-      { time: "晚上", title: "回福岡／博多", note: "不再排太累行程。" },
+      { time: "晚上", title: "回福岡", note: "這天會是長時間一日遊。", kind: "traffic" },
       { time: "晚上", title: "福岡市區簡單晚餐", note: "視回程時間決定。" }
     ],
     notes: [
       { title: "阿蘇管制", text: "阿蘇火山口能不能靠近，要看火山氣體、天候與現場管制。" },
-      { title: "高千穗划船", text: "若 KKday 行程有划船選項，通常不可保證，可能受天候、水位、預約狀況影響。" }
+      { title: "交通方式", text: "建議直接買 KKday 或當地一日遊，不建議自己轉車。" }
     ]
   },
   {
@@ -840,18 +672,18 @@ const days = [
     date: "2026年7月11日（六）",
     title: "福岡市區／宮地嶽神社風鈴祭白天版",
     stay: "福岡",
-    summary: "前一天一日遊較累，這天當緩衝日。上午或下午去宮地嶽神社風鈴祭白天版，下午回福岡市區補輕鬆行程。",
+    summary: "全程住福岡後，7/11 變成比較舒服的福岡緩衝日。這天安排宮地嶽神社風鈴祭白天版，也可以補福岡市區景點、買伴手禮、休息。",
     tags: ["緩衝日", "可縮短", "最後晚餐"],
     timeline: [
-      { time: "上午", title: "福岡市區早餐／慢慢出發", note: "前一天一日遊會比較累。" },
-      { time: "上午～下午", title: "宮地嶽神社風鈴祭白天版", note: "活動期間 2026/7/1–8/31；白天看風鈴可行。", links: [["宮地嶽神社", links.miyajidake]] },
-      { time: "下午", title: "回福岡市區", note: "可補天神、大濠公園、福岡城跡等輕鬆點。" },
-      { time: "傍晚", title: "大濠公園／福岡城跡，視體力安排", note: "可選，不硬排。", links: [["大濠公園", links.ohori], ["福岡城跡", links.fukuokaCastle]] },
-      { time: "晚上", title: "福岡最後晚餐", note: "可選拉麵、燒鳥、一口餃子等非海鮮。" }
+      { time: "上午", title: "福岡市區慢慢吃早餐", note: "前一天一日遊會比較累。" },
+      { time: "上午～中午", title: "福岡市區 → 宮地嶽神社", note: "福津方向，需抓交通時間。", kind: "traffic", links: [["宮地嶽神社", links.miyajidake]] },
+      { time: "中午～下午", title: "宮地嶽神社風鈴祭白天版", note: "活動期間 2026/7/1–8/31；你可接受白天看風鈴。", links: [["宮地嶽神社", links.miyajidake]] },
+      { time: "下午", title: "回福岡市區", note: "可休息、買伴手禮。", kind: "traffic" },
+      { time: "傍晚～晚上", title: "博多／天神／中洲自由安排", note: "最後一晚住福岡。" }
     ],
     notes: [
-      { title: "風鈴祭", text: "夜間點燈較漂亮，但全住福岡版若想看夜間可以再調整；雨天時夜間點燈可能取消。" },
-      { title: "體力調整", text: "如果 7/10 一日遊回來太累，可以把宮地嶽神社縮短，或只留福岡市區輕鬆走。" }
+      { title: "風鈴祭", text: "白天看風鈴可行；夜間點燈較漂亮，但這趟全住福岡版也可以視體力決定是否晚上去。" },
+      { title: "體力調整", text: "如果前一天 KKday 一日遊太累，這天可改成福岡市區休息。" }
     ]
   },
   {
@@ -861,21 +693,20 @@ const days = [
     date: "2026年7月12日（日）",
     title: "福岡 → 佐賀機場 → 臺北",
     stay: "返台",
-    summary: "回程日不排景點。主方案是從博多搭 JR 到佐賀站，再轉佐賀站巴士中心的佐賀機場接續巴士。",
+    summary: "回程日。前一晚住福岡可行，但早上要早起。建議搭 JR 從博多到佐賀站，再轉 09:10 佐賀站巴士中心 → 09:40 佐賀機場的接續巴士。",
     tags: ["早起", "不排景點", "交通重點"],
     timeline: [
-      { time: "07:00 左右", title: "福岡飯店出發", note: "建議前一晚先整理行李。" },
-      { time: "07:20–07:30", title: "抵達博多站／博多駅", note: "留買票／進站時間。", links: [["博多站", links.hakata]] },
-      { time: "07:28", title: "博多 → 佐賀", note: "第一推薦；到佐賀後緩衝最大。" },
-      { time: "08:14", title: "抵達佐賀站／佐賀駅", note: "接 09:10 機場巴士。", links: [["佐賀站", links.sagaStation]] },
-      { time: "09:10", title: "佐賀站巴士中心 → 佐賀機場", note: "對應台北 11:35 航班。", links: [["佐賀站巴士中心", links.sagaBusCenter]] },
+      { time: "07:00 左右", title: "福岡飯店出發", note: "不要睡太晚。", kind: "traffic" },
+      { time: "07:28", title: "博多站／博多駅 → 佐賀站／佐賀駅", note: "第一推薦，約 08:14 抵達佐賀，緩衝最多。", kind: "traffic", links: [["博多站", links.hakata], ["佐賀站", links.sagaStation]] },
+      { time: "08:14", title: "抵達佐賀站／佐賀駅", note: "走到佐賀站巴士中心。", kind: "traffic", links: [["佐賀站", links.sagaStation]] },
+      { time: "09:10", title: "佐賀站巴士中心 → 佐賀機場", note: "真正不能錯過。對應台北 11:35 航班的接續巴士；出發前再次確認班次。", kind: "traffic", labels: ["出發前確認"], links: [["佐賀機場", links.sagaAirport]] },
       { time: "09:40", title: "抵達佐賀機場／九州佐賀国際空港", note: "國際線提早到較安心。", links: [["佐賀機場", links.sagaAirport]] },
       { time: "11:35", title: "佐賀機場出發", note: "臺灣虎航。" },
       { time: "13:05", title: "抵達臺北 TPE", note: "旅程結束。" }
     ],
     notes: [
-      { title: "第二可接受版本", text: "07:55 博多 → 08:35 佐賀，再接 09:10 佐賀站巴士中心 → 佐賀機場；不要抓比 07:55 更晚的 JR。" },
-      { title: "錯過巴士備案", text: "如果錯過 09:10 巴士，備案是從佐賀站搭計程車去佐賀機場。" }
+      { title: "備案班次", text: "第二可接受：07:55 博多 → 08:35 佐賀；更早備案：07:16 博多 → 07:59 佐賀。" },
+      { title: "錯過巴士備案", text: "如果錯過 09:10 巴士，建議直接改計程車，不要再等其他不確定班次。" }
     ],
     details: [
       { title: "第二可接受版本", items: ["07:55 博多 → 佐賀。", "08:35 抵達佐賀，到 09:10 巴士有約 35 分鐘。", "09:10 佐賀站巴士中心 → 佐賀機場。"] }
@@ -901,10 +732,16 @@ function timelineHtml(item) {
   const linksHtml = item.links?.length
     ? `<div class="link-row">${item.links.map(linkHtml).join("")}</div>`
     : "";
+  const meta = [
+    item.kind === "traffic" ? `<span class="tag traffic">交通</span>` : "",
+    ...(item.labels || []).map(label => `<span class="tag ${label === "需預約" ? "important" : "confirm"}">${escapeHtml(label)}</span>`)
+  ].filter(Boolean).join("");
+  const metaHtml = meta ? `<div class="item-meta">${meta}</div>` : "";
   return `
     <article class="timeline-item">
       <div class="time">${escapeHtml(item.time)}</div>
       <div class="item-main">
+        ${metaHtml}
         <h3 class="item-title">${escapeHtml(item.title)}</h3>
         <p class="item-note">${escapeHtml(item.note)}</p>
         ${linksHtml}
