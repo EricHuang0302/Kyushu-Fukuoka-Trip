@@ -16,7 +16,7 @@
 |---|---|---|---|
 | 7/7（二） | 佐賀 → 福岡 | 福岡 | 抵達、佐賀站午餐、JR 到福岡、博多祇園山笠、博多華味鳥水炊き |
 | 7/8（三） | 福岡 → 太宰府 → 福岡 | 福岡 | 太宰府天滿宮、福岡市區補逛、肉いち燒肉 |
-| 7/9（四） | 福岡 ⇄ 熊本 | 福岡 | 熊本當日來回：水前寺、熊本城、加藤神社、城彩苑、黑亭拉麵、熊本熊廣場、上下通 |
+| 7/9（四） | 福岡 ⇄ 熊本 | 福岡 | 熊本當日來回：水前寺、熊本城、加藤神社、熊本熊傳統工藝館門口打卡、城彩苑、黑亭拉麵、熊本熊廣場、上下通 |
 | 7/10（五） | 福岡出發一日遊 | 福岡 | KKday／一日遊：高千穗峽＋阿蘇／草千里 |
 | 7/11（六） | 福岡 | 福岡 | 宮地嶽神社風鈴祭白天版、福岡市區緩衝日 |
 | 7/12（日） | 福岡 → 佐賀機場 → 臺北 | — | 博多 JR 到佐賀站，再轉佐賀機場巴士回台灣 |
@@ -105,7 +105,7 @@
 # 7/9（四）福岡 ⇄ 熊本當日來回
 
 ## 主軸
-這天從福岡搭 JR／新幹線到熊本當日來回。熊本想去的點包含：水前寺廟、熊本城、加藤神社、櫻之馬場城彩苑、黑亭拉麵、熊本熊大樓、上下通商店街。
+這天從福岡搭 JR／新幹線到熊本當日來回。熊本想去的點包含：水前寺廟、熊本城、加藤神社、熊本熊傳統工藝館門口打卡、櫻之馬場城彩苑、黑亭拉麵、熊本熊廣場、上下通商店街。
 
 ## 預計行程
 
@@ -115,10 +115,10 @@
 | 09:00–10:00 | 水前寺成趣園／出水神社｜[Google Maps](https://www.google.com/maps/search/?api=1&query=水前寺成趣園+出水神社+熊本市中央区水前寺公園8-1) | 你說的水前寺廟，先以水前寺成趣園＋出水神社安排 |
 | 10:30–11:30 | 熊本城｜[Google Maps](https://www.google.com/maps/search/?api=1&query=熊本城+熊本市中央区本丸1-1) | 放上午，避免下午卡最後入場時間 |
 | 11:30–12:00 | 加藤神社｜[Google Maps](https://www.google.com/maps/search/?api=1&query=加藤神社+熊本市中央区本丸2-1) | 熊本城旁邊，順路 |
-| 12:00–12:45 | 櫻之馬場 城彩苑｜[Google Maps](https://www.google.com/maps/search/?api=1&query=桜の馬場+城彩苑+熊本市中央区二の丸1-1-2) | 買 城彩苑熊本熊雞蛋糕／くまモン人形焼き｜[Google Maps](https://www.google.com/maps/search/?api=1&query=くまモン人形焼き+桜の馬場+城彩苑+熊本) |
+| 12:00–12:15 | 熊本熊傳統工藝館／熊本県伝統工芸館｜[Google Maps](https://www.google.com/maps/search/?api=1&query=熊本県伝統工芸館+熊本市中央区千葉城町3-35) | 去門口打卡；就在熊本城、加藤神社周邊 |
+| 12:15–12:50 | 櫻之馬場 城彩苑｜[Google Maps](https://www.google.com/maps/search/?api=1&query=桜の馬場+城彩苑+熊本市中央区二の丸1-1-2) | 買 城彩苑熊本熊雞蛋糕／くまモン人形焼き｜[Google Maps](https://www.google.com/maps/search/?api=1&query=くまモン人形焼き+桜の馬場+城彩苑+熊本) |
 | 13:00–14:00 | 黑亭拉麵 下通店｜[Google Maps](https://www.google.com/maps/search/?api=1&query=黒亭+下通店+熊本市中央区下通1丁目7-14) | 中午吃黑亭拉麵。先排下通店，動線最順 |
 | 14:00–14:30 | 熊本熊廣場／くまモンスクエア｜[Google Maps](https://www.google.com/maps/search/?api=1&query=くまモンスクエア+熊本市中央区手取本町8-2) | 如果仍想看 14:00 表演，午餐要吃快一點；出發前確認官方在室スケジュール |
-| 14:30–15:00 | Tetria 熊本大樓｜[Google Maps](https://www.google.com/maps/search/?api=1&query=テトリアくまもとビル+熊本市中央区手取本町8-2) | 你說玻璃上有熊本熊圖案的大樓，暫註記為熊本熊廣場所在建築 |
 | 15:00–16:30 | 上通商店街｜[Google Maps](https://www.google.com/maps/search/?api=1&query=上通商店街+熊本市中央区上通町)、Round Trip｜[Google Maps](https://www.google.com/maps/search/?api=1&query=Round+Trip+熊本市中央区上通町7-5)、下通商店街｜[Google Maps](https://www.google.com/maps/search/?api=1&query=下通商店街+熊本市中央区下通) | 上下通一起散步；Round Trip 是指定想逛的店 |
 | 17:00 以後 | 熊本站／熊本駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=熊本駅+熊本市西区春日3丁目) → 博多站／博多駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=博多駅+福岡市博多区博多駅中央街) | 晚上回福岡住宿 |
 
@@ -137,6 +137,11 @@
 - 地圖：加藤神社｜[Google Maps](https://www.google.com/maps/search/?api=1&query=加藤神社+熊本市中央区本丸2-1)
 - 就在熊本城旁邊，很適合一起排。
 
+### 熊本熊傳統工藝館／熊本県伝統工芸館
+- 地圖：熊本県伝統工芸館｜[Google Maps](https://www.google.com/maps/search/?api=1&query=熊本県伝統工芸館+熊本市中央区千葉城町3-35)
+- 主要安排為門口打卡，不排長時間參觀。
+- 就在熊本城、加藤神社周邊，適合接在加藤神社後面。
+
 ### 櫻之馬場 城彩苑
 - 地圖：櫻之馬場 城彩苑｜[Google Maps](https://www.google.com/maps/search/?api=1&query=桜の馬場+城彩苑+熊本市中央区二の丸1-1-2)
 - 熊本城旁邊，要去。
@@ -148,9 +153,8 @@
 - 目前先排下通店，因為離熊本熊廣場、上下通商店街最順。
 - 如果改吃黑亭本店，會靠近熊本站，整體動線要重排。
 
-### 熊本熊廣場／Tetria 熊本大樓
+### 熊本熊廣場
 - 地圖：熊本熊廣場／くまモンスクエア｜[Google Maps](https://www.google.com/maps/search/?api=1&query=くまモンスクエア+熊本市中央区手取本町8-2)
-- 地圖：Tetria 熊本大樓｜[Google Maps](https://www.google.com/maps/search/?api=1&query=テトリアくまもとビル+熊本市中央区手取本町8-2)
 - 你想看 14:00 表演的話，午餐時間要抓緊。
 - 出發前務必確認官方「在室スケジュール」。
 
