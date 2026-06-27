@@ -57,6 +57,7 @@
 
 | 時間 | 行程 | 備註 |
 |---|---|---|
+| 出發前 | 填寫 Visit Japan Web／VSJ｜[官方連結](https://services.digital.go.jp/zh-cmn-hant/visit-japan-web/) | 記得完成入境資料；帳號密碼請放私人密碼管理器或私下備註，不放公開頁面 |
 | 06:55 | 臺北 TPE 出發 | 臺灣虎航 |
 | 10:35 | 抵達 佐賀機場／九州佐賀国際空港｜[Google Maps](https://www.google.com/maps/search/?api=1&query=九州佐賀国際空港+佐賀県佐賀市川副町) | 入境、拿行李 |
 | 11:10–11:45 | 佐賀機場／九州佐賀国際空港｜[Google Maps](https://www.google.com/maps/search/?api=1&query=九州佐賀国際空港+佐賀県佐賀市川副町) → 佐賀站巴士中心／佐賀駅バスセンター｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅バスセンター+佐賀県佐賀市駅前中央1丁目) | 佐賀機場接續巴士；約 35 分鐘、13.8 公里、600 日圓 |
@@ -72,6 +73,8 @@
 
 ### 佐賀站午餐
 - 地圖：佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目)
+- 出發前記得填寫 VSJ／Visit Japan Web：<https://services.digital.go.jp/zh-cmn-hant/visit-japan-web/>
+- VSJ 帳號密碼請放在私人密碼管理器或私下備註，不放公開 GitHub Pages。
 - 這天先在佐賀站附近吃午餐，再搭 JR 到博多，整體比較不趕。
 - 佐賀機場到佐賀站巴士中心：11:10 出發、11:45 抵達，約 35 分鐘，票價 600 日圓。
 - 午餐可先抓「佐賀站周邊簡單定食／拉麵／咖啡」，不用排太正式，因晚上要吃水炊き。
@@ -227,7 +230,7 @@
 | 時間 | 行程 | 備註 |
 |---|---|---|
 | 早上 | 福岡集合出發｜[Klook 行程](https://www.klook.com/zh-TW/activity/141664-mt-aso-kusasenrigahama-takachiho-gorge-takachiho-river-boat-ride-tour/) | 依 Klook 訂單集合時間與集合地點 |
-| 白天 | 高千穗峽｜[Google Maps](https://www.google.com/maps/search/?api=1&query=高千穂峡+宮崎県西臼杵郡高千穂町)、真名井瀑布／真名井の滝｜[Google Maps](https://www.google.com/maps/search/?api=1&query=真名井の滝+高千穂峡) | 若能划船則加分，但不可保證 |
+| 白天 | 高千穗峽｜[Google Maps](https://www.google.com/maps/search/?api=1&query=高千穂峡+宮崎県西臼杵郡高千穂町)、真名井瀑布／真名井の滝｜[Google Maps](https://www.google.com/maps/search/?api=1&query=真名井の滝+高千穂峡)
 | 白天 | 阿蘇、草千里ヶ浜｜[Google Maps](https://www.google.com/maps/search/?api=1&query=草千里ヶ浜+阿蘇市熊本県) 一帶 | 阿蘇中岳火口｜[Google Maps](https://www.google.com/maps/search/?api=1&query=阿蘇中岳火口+熊本県阿蘇市) 依當天管制決定 |
 | 晚上 | 回福岡 | 這天會是長時間一日遊 |
 | 晚上 | 福岡市區簡單晚餐 | 不再排太累行程 |
