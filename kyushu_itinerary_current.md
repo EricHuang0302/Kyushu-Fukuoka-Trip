@@ -34,8 +34,8 @@
 |---|---|---|
 | 06:55 | 臺北 TPE 出發 | 臺灣虎航 |
 | 10:35 | 抵達 佐賀機場／九州佐賀国際空港｜[Google Maps](https://www.google.com/maps/search/?api=1&query=九州佐賀国際空港+佐賀県佐賀市川副町) | 入境、拿行李 |
-| 11:20–12:00 | 佐賀機場／九州佐賀国際空港｜[Google Maps](https://www.google.com/maps/search/?api=1&query=九州佐賀国際空港+佐賀県佐賀市川副町) → 佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目) | 佐賀機場接續巴士 |
-| 12:00–13:00 | 佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目) 附近午餐 | 抵達後先吃午餐，不急著衝福岡 |
+| 11:10–11:45 | 佐賀機場／九州佐賀国際空港｜[Google Maps](https://www.google.com/maps/search/?api=1&query=九州佐賀国際空港+佐賀県佐賀市川副町) → 佐賀站巴士中心／佐賀駅バスセンター｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅バスセンター+佐賀県佐賀市駅前中央1丁目) | 佐賀機場接續巴士；約 35 分鐘、13.8 公里、600 日元 |
+| 11:45–13:00 | 佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目) 附近午餐 | 抵達後先吃午餐，不急著衝福岡 |
 | 13:00–14:00 | 佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目) → 博多站／博多駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=博多駅+福岡市博多区博多駅中央街) | JR 特急較順 |
 | 14:00–15:00 | 抵達福岡，飯店寄放行李／Check-in | 建議住博多／中洲附近 |
 | 15:30–17:30 | 福岡市區休息、博多站周邊、或飯店整理 | 抵達日不要排太硬 |
@@ -48,6 +48,7 @@
 ### 佐賀站午餐
 - 地圖：佐賀站／佐賀駅｜[Google Maps](https://www.google.com/maps/search/?api=1&query=佐賀駅+佐賀県佐賀市駅前中央1丁目)
 - 這天先在佐賀站附近吃午餐，再搭 JR 到博多，整體比較不趕。
+- 佐賀機場到佐賀站巴士中心：11:10 出發、11:45 抵達，約 35 分鐘，票價 600 日元。
 - 午餐可先抓「佐賀站周邊簡單定食／拉麵／咖啡」，不用排太正式，因晚上要吃水炊き。
 
 ### 博多祇園山笠
