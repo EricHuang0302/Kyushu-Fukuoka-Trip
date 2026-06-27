@@ -606,6 +606,7 @@ const links = {
   asoCrater: "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E8%98%87%E4%B8%AD%E5%B2%B3%E7%81%AB%E5%8F%A3%20%E7%86%8A%E6%9C%AC%E7%9C%8C%E9%98%BF%E8%98%87%E5%B8%82",
   klookAsoTakachiho: "https://www.klook.com/zh-TW/activity/141664-mt-aso-kusasenrigahama-takachiho-gorge-takachiho-river-boat-ride-tour/",
   miyajidake: "https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%9C%B0%E5%B6%BD%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E6%B4%A5%E5%B8%82%E5%AE%AE%E5%8F%B8%E5%85%83%E7%94%BA7-1",
+  kanetoraParco: "https://maps.app.goo.gl/Ro2jV2ySUAKrQqen6",
   sasaguriStation: "https://www.google.com/maps/search/?api=1&query=JR%20%E7%AF%A0%E6%A0%97%E9%A7%85",
   ohori: "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
   fukuokaCastle: "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E5%9F%8E%E8%B7%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%9F%8E%E5%86%85",
@@ -719,19 +720,21 @@ const days = [
     date: "2026年7月11日（六）",
     title: "宮地嶽神社風鈴祭白天版＋篠栗花火",
     stay: "福岡",
-    summary: "白天安排宮地嶽神社風鈴祭，晚上去 JR 篠栗站看篠栗祇園夏まつり・納涼花火大会。",
-    tags: ["風鈴祭", "20:00 花火", "JR 篠栗站"],
+    summary: "白天安排宮地嶽神社風鈴祭，下午回天神吃麵屋兼虎，晚上去 JR 篠栗站看篠栗祇園夏まつり・納涼花火大会。",
+    tags: ["風鈴祭", "麵屋兼虎", "20:00 花火"],
     timeline: [
       { time: "上午", title: "福岡市區慢慢吃早餐", note: "前一天一日遊會比較累。" },
       { time: "上午～中午", title: "福岡市區 → 宮地嶽神社", note: "搭 JR 到福間站後，轉巴士或計程車約 5 分鐘；步行約 25 分鐘。", kind: "traffic", links: [["宮地嶽神社", links.miyajidake]] },
       { time: "中午～下午", title: "宮地嶽神社風鈴祭白天版", note: "活動期間 2026/7/1–8/31；你可接受白天看風鈴。", links: [["宮地嶽神社", links.miyajidake]] },
       { time: "下午", title: "宮地嶽神社 → 福岡市區", note: "回福間站後搭 JR 回福岡市區，可休息、買伴手禮。", kind: "traffic" },
+      { time: "下午～傍晚", title: "麵屋兼虎 福岡PARCO店", note: "天神 PARCO 本館 B1F，排進回福岡市區後、去篠栗花火前。", kind: "food", links: [["麵屋兼虎", links.kanetoraParco]] },
       { time: "傍晚", title: "福岡市區 → JR 篠栗站", note: "依 JR 實際班次，建議提早到並保留人潮緩衝。", kind: "traffic", links: [["JR 篠栗站", links.sasaguriStation]] },
       { time: "20:00～20:40", title: "篠栗祇園夏まつり・納涼花火大会", note: "地點：JR 篠栗站。", links: [["JR 篠栗站", links.sasaguriStation]] },
       { time: "花火後", title: "JR 篠栗站 → 福岡市區", note: "最後一晚住福岡，回程注意人潮與 JR 班次。", kind: "traffic" }
     ],
     notes: [
       { title: "風鈴祭", text: "白天看風鈴可行；夜間點燈較漂亮，但這趟全住福岡版也可以視體力決定是否晚上去。" },
+      { title: "麵屋兼虎", text: "福岡PARCO本館 B1F，排在下午回天神後，去篠栗花火前。" },
       { title: "篠栗花火", text: "7/11（六）20:00～20:40，地點在 JR 篠栗站；建議傍晚先移動過去。" },
       { title: "體力調整", text: "如果前一天 Klook 一日遊太累，這天白天可改成福岡市區休息，晚上保留篠栗花火。" }
     ]
