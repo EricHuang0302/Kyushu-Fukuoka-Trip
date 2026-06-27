@@ -581,7 +581,9 @@ const links = {
   manaiFalls: "https://www.google.com/maps/search/?api=1&query=%E7%9C%9F%E5%90%8D%E4%BA%95%E3%81%AE%E6%BB%9D%20%E9%AB%98%E5%8D%83%E7%A9%82%E5%B3%A1",
   kusasenri: "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E5%8D%83%E9%87%8C%E3%83%B6%E6%B5%9C%20%E9%98%BF%E8%98%87%E5%B8%82%E7%86%8A%E6%9C%AC%E7%9C%8C",
   asoCrater: "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E8%98%87%E4%B8%AD%E5%B2%B3%E7%81%AB%E5%8F%A3%20%E7%86%8A%E6%9C%AC%E7%9C%8C%E9%98%BF%E8%98%87%E5%B8%82",
+  klookAsoTakachiho: "https://www.klook.com/zh-TW/activity/141664-mt-aso-kusasenrigahama-takachiho-gorge-takachiho-river-boat-ride-tour/",
   miyajidake: "https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%9C%B0%E5%B6%BD%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E6%B4%A5%E5%B8%82%E5%AE%AE%E5%8F%B8%E5%85%83%E7%94%BA7-1",
+  sasaguriStation: "https://www.google.com/maps/search/?api=1&query=JR%20%E7%AF%A0%E6%A0%97%E9%A7%85",
   ohori: "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
   fukuokaCastle: "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E5%9F%8E%E8%B7%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%9F%8E%E5%86%85",
   ichijuSanbachi: "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E6%B1%81%E4%B8%89%E9%89%A2%20%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B8%8B%E9%80%9A1%E4%B8%81%E7%9B%AE7-24"
@@ -669,12 +671,12 @@ const days = [
     navDate: "7/10",
     navTitle: "高千穗・阿蘇",
     date: "2026年7月10日（五）",
-    title: "福岡出發 KKday／一日遊：高千穗峽＋阿蘇／草千里",
+    title: "福岡出發 Klook 一日遊：高千穗峽＋阿蘇／草千里",
     stay: "福岡",
-    summary: "高千穗峽＋阿蘇／草千里一日遊。建議直接買 KKday 或當地一日遊，不建議自己轉車。",
-    tags: ["一日遊", "交通最長", "依訂單為準"],
+    summary: "高千穗峽＋阿蘇／草千里一日遊。使用 Klook 行程，不建議自己轉車。",
+    tags: ["Klook", "一日遊", "依訂單為準"],
     timeline: [
-      { time: "早上", title: "福岡集合出發", note: "以 KKday／當地一日遊集合地點與時間為準；不建議自行搭大眾交通轉高千穗與阿蘇。", kind: "traffic", labels: ["出發前確認"] },
+      { time: "早上", title: "福岡集合出發", note: "以 Klook 訂單集合地點與時間為準；不建議自行搭大眾交通轉高千穗與阿蘇。", kind: "traffic", labels: ["出發前確認"], links: [["Klook 行程", links.klookAsoTakachiho]] },
       { time: "白天", title: "高千穗峽、真名井瀑布", note: "若能划船則加分，但不可保證。", links: [["高千穗峽", links.takachiho], ["真名井瀑布", links.manaiFalls]] },
       { time: "白天", title: "阿蘇、草千里ヶ浜一帶", note: "阿蘇中岳火口依當天火山氣體、天候與現場管制決定。", links: [["草千里ヶ浜", links.kusasenri], ["阿蘇中岳火口", links.asoCrater]] },
       { time: "晚上", title: "回福岡", note: "這天會是長時間一日遊。", kind: "traffic" },
@@ -682,28 +684,31 @@ const days = [
     ],
     notes: [
       { title: "阿蘇管制", text: "阿蘇火山口能不能靠近，要看火山氣體、天候與現場管制。" },
-      { title: "交通方式", text: "建議直接買 KKday 或當地一日遊，不建議自己轉車。" }
+      { title: "交通方式", text: "使用 Klook 一日遊；集合時間與集合地點以訂單為準，不建議自己轉車。" }
     ]
   },
   {
     id: "d711",
     navDate: "7/11",
-    navTitle: "福岡緩衝日",
+    navTitle: "風鈴祭・花火",
     date: "2026年7月11日（六）",
-    title: "福岡市區／宮地嶽神社風鈴祭白天版",
+    title: "宮地嶽神社風鈴祭白天版＋篠栗花火",
     stay: "福岡",
-    summary: "全程住福岡後，7/11 變成比較舒服的福岡緩衝日。這天安排宮地嶽神社風鈴祭白天版，也可以補福岡市區景點、買伴手禮、休息。",
-    tags: ["緩衝日", "可縮短", "最後晚餐"],
+    summary: "白天安排宮地嶽神社風鈴祭，晚上去 JR 篠栗站看篠栗祇園夏まつり・納涼花火大会。",
+    tags: ["風鈴祭", "20:00 花火", "JR 篠栗站"],
     timeline: [
       { time: "上午", title: "福岡市區慢慢吃早餐", note: "前一天一日遊會比較累。" },
       { time: "上午～中午", title: "福岡市區 → 宮地嶽神社", note: "搭 JR 到福間站後，轉巴士或計程車約 5 分鐘；步行約 25 分鐘。", kind: "traffic", links: [["宮地嶽神社", links.miyajidake]] },
       { time: "中午～下午", title: "宮地嶽神社風鈴祭白天版", note: "活動期間 2026/7/1–8/31；你可接受白天看風鈴。", links: [["宮地嶽神社", links.miyajidake]] },
       { time: "下午", title: "宮地嶽神社 → 福岡市區", note: "回福間站後搭 JR 回福岡市區，可休息、買伴手禮。", kind: "traffic" },
-      { time: "傍晚～晚上", title: "博多／天神／中洲自由安排", note: "最後一晚住福岡。" }
+      { time: "傍晚", title: "福岡市區 → JR 篠栗站", note: "依 JR 實際班次，建議提早到並保留人潮緩衝。", kind: "traffic", links: [["JR 篠栗站", links.sasaguriStation]] },
+      { time: "20:00～20:40", title: "篠栗祇園夏まつり・納涼花火大会", note: "地點：JR 篠栗站。", links: [["JR 篠栗站", links.sasaguriStation]] },
+      { time: "花火後", title: "JR 篠栗站 → 福岡市區", note: "最後一晚住福岡，回程注意人潮與 JR 班次。", kind: "traffic" }
     ],
     notes: [
       { title: "風鈴祭", text: "白天看風鈴可行；夜間點燈較漂亮，但這趟全住福岡版也可以視體力決定是否晚上去。" },
-      { title: "體力調整", text: "如果前一天 KKday 一日遊太累，這天可改成福岡市區休息。" }
+      { title: "篠栗花火", text: "7/11（六）20:00～20:40，地點在 JR 篠栗站；建議傍晚先移動過去。" },
+      { title: "體力調整", text: "如果前一天 Klook 一日遊太累，這天白天可改成福岡市區休息，晚上保留篠栗花火。" }
     ]
   },
   {
