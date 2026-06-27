@@ -230,7 +230,7 @@
 | 時間 | 行程 | 備註 |
 |---|---|---|
 | 早上 | 福岡集合出發｜[Klook 行程](https://www.klook.com/zh-TW/activity/141664-mt-aso-kusasenrigahama-takachiho-gorge-takachiho-river-boat-ride-tour/) | 依 Klook 訂單集合時間與集合地點 |
-| 白天 | 高千穗峽｜[Google Maps](https://www.google.com/maps/search/?api=1&query=高千穂峡+宮崎県西臼杵郡高千穂町)、真名井瀑布／真名井の滝｜[Google Maps](https://www.google.com/maps/search/?api=1&query=真名井の滝+高千穂峡)
+| 白天 | 高千穗峽｜[Google Maps](https://www.google.com/maps/search/?api=1&query=高千穂峡+宮崎県西臼杵郡高千穂町)、真名井瀑布／真名井の滝｜[Google Maps](https://www.google.com/maps/search/?api=1&query=真名井の滝+高千穂峡) | 若能划船則加分，但不可保證 |
 | 白天 | 阿蘇、草千里ヶ浜｜[Google Maps](https://www.google.com/maps/search/?api=1&query=草千里ヶ浜+阿蘇市熊本県) 一帶 | 阿蘇中岳火口｜[Google Maps](https://www.google.com/maps/search/?api=1&query=阿蘇中岳火口+熊本県阿蘇市) 依當天管制決定 |
 | 晚上 | 回福岡 | 這天會是長時間一日遊 |
 | 晚上 | 福岡市區簡單晚餐 | 不再排太累行程 |
