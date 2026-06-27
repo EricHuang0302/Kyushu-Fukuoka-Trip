@@ -229,12 +229,13 @@
 | 白天 | 高千穗峽｜[Google Maps](https://www.google.com/maps/search/?api=1&query=高千穂峡+宮崎県西臼杵郡高千穂町)、真名井瀑布／真名井の滝｜[Google Maps](https://www.google.com/maps/search/?api=1&query=真名井の滝+高千穂峡) | 若能划船則加分，但不可保證 |
 | 白天 | 阿蘇、草千里ヶ浜｜[Google Maps](https://www.google.com/maps/search/?api=1&query=草千里ヶ浜+阿蘇市熊本県) 一帶 | 阿蘇中岳火口｜[Google Maps](https://www.google.com/maps/search/?api=1&query=阿蘇中岳火口+熊本県阿蘇市) 依當天管制決定 |
 | 晚上 | 回福岡 | 這天會是長時間一日遊 |
-| 晚上 | 福岡市區簡單晚餐 | 不再排太累行程 |
+| 晚上 | 大地烏龍麵 博多站地下店｜[Google Maps](https://maps.app.goo.gl/er5F5bzyARAgTP4y6) | Klook 一日遊回福岡後的簡單晚餐，博多站地下店較順 |
 
 ## 注意事項
 - 阿蘇火山口能不能靠近，要看火山氣體、天候與現場管制。
 - 這天核心先抓成：高千穗峽＋草千里／阿蘇周邊。
 - 不把火山口當成一定會到的景點。
+- 晚餐安排大地烏龍麵 博多站地下店，適合一日遊回來後快速吃。
 
 ---
 
