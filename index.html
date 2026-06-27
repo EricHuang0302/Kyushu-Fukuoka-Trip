@@ -212,6 +212,12 @@
     color: var(--indigo);
   }
 
+  .tag.food {
+    border-color: rgba(183,139,75,0.34);
+    background: rgba(183,139,75,0.12);
+    color: #7a5228;
+  }
+
   .day-panel {
     display: none;
     animation: fade .18s ease;
@@ -301,6 +307,23 @@
     border-color: rgba(36,55,70,0.28);
     background: rgba(36,55,70,0.08);
     color: var(--indigo);
+  }
+
+  .timeline-item.food-item {
+    border-color: rgba(183,139,75,0.28);
+    border-left: 4px solid var(--gold);
+    background: linear-gradient(135deg, rgba(183,139,75,0.12), rgba(166,94,59,0.06));
+  }
+
+  .food-item .time,
+  .food-item .item-title {
+    color: #7a5228;
+  }
+
+  .food-item .link-pill {
+    border-color: rgba(183,139,75,0.32);
+    background: rgba(183,139,75,0.12);
+    color: #7a5228;
   }
 
   .time {
@@ -605,12 +628,12 @@ const days = [
       { time: "06:55", title: "臺北 TPE 出發", note: "臺灣虎航。" },
       { time: "10:35", title: "抵達佐賀機場／九州佐賀国際空港", note: "入境、拿行李。", links: [["佐賀機場", links.sagaAirport]] },
       { time: "11:10–11:45", title: "佐賀機場 → 佐賀站巴士中心", note: "佐賀機場接續巴士；約 35 分鐘、13.8 公里、600 日元。", kind: "traffic", links: [["佐賀機場", links.sagaAirport], ["佐賀站巴士中心", links.sagaBusCenter]] },
-      { time: "11:45–13:00", title: "佐賀站附近午餐", note: "抵達後先在佐賀站周邊吃簡單定食／拉麵／咖啡，不急著衝福岡。", links: [["佐賀站", links.sagaStation]] },
+      { time: "11:45–13:00", title: "佐賀站附近午餐", note: "抵達後先在佐賀站周邊吃簡單定食／拉麵／咖啡，不急著衝福岡。", kind: "food", links: [["佐賀站", links.sagaStation]] },
       { time: "13:00–14:00", title: "佐賀站 → 博多站／博多駅", note: "從 JR 佐賀站搭 JR 特急到博多站。", kind: "traffic", links: [["佐賀站", links.sagaStation], ["博多站", links.hakata]] },
       { time: "14:00–15:00", title: "抵達福岡，飯店寄放行李／Check-in", note: "建議住博多／中洲附近。" },
       { time: "15:30–17:30", title: "福岡市區休息、博多站周邊、或飯店整理", note: "抵達日不要排太硬。" },
       { time: "18:00–19:00", title: "櫛田神社、川端通商店街、博多祇園山笠周邊", note: "2026 年活動期間 7/1–7/15，這趟主要看飾山笠與街區祭典氣氛。", links: [["櫛田神社", links.kushida], ["川端通商店街", links.kawabata], ["博多祇園山笠", links.yamakasa]] },
-      { time: "晚上", title: "博多華味鳥 中洲本店：水炊き", note: "需預約。官網可 WEB 預約；中洲本店若遲到 15 分鐘未聯絡可能取消，也有服務費規定。", labels: ["需預約"], links: [["中洲本店", links.hanamidori], ["博多駅前店備案", links.hanamidoriHakata]] },
+      { time: "晚上", title: "博多華味鳥 中洲本店：水炊き", note: "需預約。官網可 WEB 預約；中洲本店若遲到 15 分鐘未聯絡可能取消，也有服務費規定。", kind: "food", labels: ["需預約"], links: [["中洲本店", links.hanamidori], ["博多駅前店備案", links.hanamidoriHakata]] },
       { time: "晚餐後", title: "中洲散步", note: "看屋台氣氛即可，不一定要吃。", links: [["中洲", links.nakasu]] }
     ],
     notes: [
@@ -632,11 +655,11 @@ const days = [
     timeline: [
       { time: "09:00", title: "博多巴士總站 → 太宰府", note: "第一推薦搭太宰府ライナーバス「旅人」，不需預約；標準車程約 40 分鐘。", kind: "traffic" },
       { time: "10:00–12:00", title: "太宰府天滿宮", note: "參拜、拍照、參道散步。", links: [["太宰府天滿宮", links.dazaifu]] },
-      { time: "12:00–13:00", title: "太宰府參道", note: "梅枝餅、甜點、簡單午餐。", links: [["太宰府參道", links.dazaifu]] },
+      { time: "12:00–13:00", title: "太宰府參道", note: "梅枝餅、甜點、簡單午餐。", kind: "food", links: [["太宰府參道", links.dazaifu]] },
       { time: "13:00–14:00", title: "太宰府 → 福岡市區", note: "可搭「旅人」回博多；備案為西鐵太宰府線轉西鐵二日市，再回天神／博多方向。", kind: "traffic" },
       { time: "14:30–16:30", title: "大濠公園、福岡城跡／舞鶴公園", note: "市區散步，不逛街也舒服。", links: [["大濠公園", links.ohori], ["福岡城跡／舞鶴公園", links.fukuokaCastle]] },
       { time: "傍晚", title: "博多／天神休息", note: "晚餐前留緩衝。" },
-      { time: "晚上", title: "肉屋 肉いち 博多店／NIKUICHI：燒肉", note: "需預約。建議先從官網／TableCheck 預約；超過 10 分鐘未聯絡可能取消。", labels: ["需預約"], links: [["肉いち 博多店", links.nikuichi]] }
+      { time: "晚上", title: "肉屋 肉いち 博多店／NIKUICHI：燒肉", note: "需預約。建議先從官網／TableCheck 預約；超過 10 分鐘未聯絡可能取消。", kind: "food", labels: ["需預約"], links: [["肉いち 博多店", links.nikuichi]] }
     ],
     notes: [
       { title: "太宰府交通", text: "第一推薦從博多巴士總站搭太宰府ライナーバス「旅人」，不需預約，標準車程約 40 分鐘；備案是地鐵到天神後轉西鐵電車。" }
@@ -658,7 +681,7 @@ const days = [
       { time: "11:30–12:00", title: "加藤神社", note: "熊本城旁邊，順路。", links: [["加藤神社", links.katoShrine]] },
       { time: "12:00–12:15", title: "熊本熊傳統工藝館／熊本県伝統工芸館", note: "去門口打卡；就在熊本城、加藤神社周邊。", links: [["熊本熊傳統工藝館", links.kumamotoCrafts]] },
       { time: "12:15–12:50", title: "櫻之馬場 城彩苑", note: "買城彩苑熊本熊雞蛋糕／くまモン人形焼き。", links: [["城彩苑", links.josaien], ["熊本熊雞蛋糕", links.kumamonCake]] },
-      { time: "13:00–14:00", title: "黑亭拉麵 下通店", note: "中午吃黑亭拉麵。先排下通店，動線最順；若要穩看 14:00 熊本熊，午餐要吃快一點。", links: [["黑亭下通店", links.kokuteiShimotori]] },
+      { time: "13:00–14:00", title: "黑亭拉麵 下通店", note: "中午吃黑亭拉麵。先排下通店，動線最順；若要穩看 14:00 熊本熊，午餐要吃快一點。", kind: "food", links: [["黑亭下通店", links.kokuteiShimotori]] },
       { time: "14:00–14:30", title: "熊本熊廣場／くまモンスクエア", note: "若仍想看 14:00 表演，出發前確認官方在室スケジュール。", labels: ["出發前確認"], links: [["熊本熊廣場", links.kumamonSquare]] },
       { time: "15:00–16:30", title: "上通商店街、Round Trip、下通商店街", note: "上下通一起散步；Round Trip 是指定想逛的店。", links: [["上通商店街", links.kamitori], ["Round Trip", links.roundTrip], ["下通商店街", links.shimotori]] },
       { time: "17:00 以後", title: "熊本站／熊本駅 → 博多站／博多駅", note: "搭九州新幹線回博多，晚上回福岡住宿。", kind: "traffic", links: [["熊本站", links.kumamotoStation], ["博多站", links.hakata]] }
@@ -683,7 +706,7 @@ const days = [
       { time: "白天", title: "高千穗峽、真名井瀑布", note: "若能划船則加分，但不可保證。", links: [["高千穗峽", links.takachiho], ["真名井瀑布", links.manaiFalls]] },
       { time: "白天", title: "阿蘇、草千里ヶ浜一帶", note: "阿蘇中岳火口依當天火山氣體、天候與現場管制決定。", links: [["草千里ヶ浜", links.kusasenri], ["阿蘇中岳火口", links.asoCrater]] },
       { time: "晚上", title: "回福岡", note: "這天會是長時間一日遊。", kind: "traffic" },
-      { time: "晚上", title: "福岡市區簡單晚餐", note: "視回程時間決定。" }
+      { time: "晚上", title: "福岡市區簡單晚餐", note: "視回程時間決定。", kind: "food" }
     ],
     notes: [
       { title: "阿蘇管制", text: "阿蘇火山口能不能靠近，要看火山氣體、天候與現場管制。" },
@@ -776,11 +799,17 @@ function timelineHtml(item) {
     : "";
   const meta = [
     item.kind === "traffic" ? `<span class="tag traffic">交通</span>` : "",
+    item.kind === "food" ? `<span class="tag food">餐食</span>` : "",
     ...(item.labels || []).map(label => `<span class="tag ${label === "需預約" ? "important" : "confirm"}">${escapeHtml(label)}</span>`)
   ].filter(Boolean).join("");
   const metaHtml = meta ? `<div class="item-meta">${meta}</div>` : "";
+  const itemClass = [
+    "timeline-item",
+    item.kind === "traffic" ? "traffic-item" : "",
+    item.kind === "food" ? "food-item" : ""
+  ].filter(Boolean).join(" ");
   return `
-    <article class="timeline-item ${item.kind === "traffic" ? "traffic-item" : ""}">
+    <article class="${itemClass}">
       <div class="time">${escapeHtml(item.time)}</div>
       <div class="item-main">
         ${metaHtml}
